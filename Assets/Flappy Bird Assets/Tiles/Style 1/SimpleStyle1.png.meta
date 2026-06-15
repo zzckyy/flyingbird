@@ -1,0 +1,368 @@
+fileFormatVersion: 2
+guid: 0371fb713bbfca14aa844daecee4e997
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9135437276427009489
+    second: SimpleStyle1_0
+  - first:
+      213: 2614047589434063584
+    second: SimpleStyle1_1
+  - first:
+      213: 2082472572801565885
+    second: SimpleStyle1_2
+  - first:
+      213: 782744233360609380
+    second: SimpleStyle1_3
+  - first:
+      213: 953049406610310874
+    second: SimpleStyle1_4
+  - first:
+      213: 576812385517075363
+    second: SimpleStyle1_5
+  - first:
+      213: -3108334494970300129
+    second: SimpleStyle1_6
+  - first:
+      213: 204251109678149829
+    second: SimpleStyle1_7
+  - first:
+      213: 7308139003304677580
+    second: SimpleStyle1_8
+  - first:
+      213: 5331515018078008828
+    second: SimpleStyle1_9
+  - first:
+      213: 4676047031293324030
+    second: SimpleStyle1_10
+  - first:
+      213: 8777262823259087331
+    second: SimpleStyle1_11
+  - first:
+      213: -6420299103518991852
+    second: SimpleStyle1_12
+  - first:
+      213: -4392730131088412777
+    second: SimpleStyle1_13
+  - first:
+      213: 4819271851071907844
+    second: SimpleStyle1_14
+  - first:
+      213: -8713778676088461896
+    second: SimpleStyle1_15
+  - first:
+      213: 7480180636931303788
+    second: SimpleStyle1_16
+  - first:
+      213: 3102268809106042091
+    second: SimpleStyle1_17
+  - first:
+      213: 3238245055276296067
+    second: SimpleStyle1_18
+  - first:
+      213: -9092916048049564507
+    second: SimpleStyle1_19
+  - first:
+      213: -5343372025252081837
+    second: SimpleStyle1_20
+  - first:
+      213: -1071175857261741524
+    second: SimpleStyle1_21
+  - first:
+      213: 511024168863109503
+    second: SimpleStyle1_22
+  - first:
+      213: -2885281856422745691
+    second: SimpleStyle1_23
+  - first:
+      213: 8182395168337098035
+    second: SimpleStyle1_24
+  - first:
+      213: -3364897996960305361
+    second: SimpleStyle1_25
+  - first:
+      213: -4178796713961117733
+    second: SimpleStyle1_26
+  - first:
+      213: 783867212383140922
+    second: SimpleStyle1_27
+  - first:
+      213: -4449919390181795008
+    second: SimpleStyle1_28
+  - first:
+      213: 1044454281240821966
+    second: SimpleStyle1_29
+  - first:
+      213: 8366162609561704444
+    second: SimpleStyle1_30
+  - first:
+      213: -5206174086900923490
+    second: SimpleStyle1_31
+  - first:
+      213: 1840983897901440858
+    second: SimpleStyle1_32
+  - first:
+      213: 4638071689542987054
+    second: SimpleStyle1_33
+  - first:
+      213: 2042621710816903075
+    second: SimpleStyle1_34
+  - first:
+      213: -2376513230032100417
+    second: SimpleStyle1_35
+  - first:
+      213: -899132464205324713
+    second: SimpleStyle1_36
+  - first:
+      213: 4463021556015487314
+    second: SimpleStyle1_37
+  - first:
+      213: 2824111206311032202
+    second: SimpleStyle1_38
+  - first:
+      213: 7310154024380916971
+    second: SimpleStyle1_39
+  - first:
+      213: -6878035323382342714
+    second: SimpleStyle1_40
+  - first:
+      213: 1476498417232844903
+    second: SimpleStyle1_41
+  - first:
+      213: 2144328647562698736
+    second: SimpleStyle1_42
+  - first:
+      213: 6604069939569985613
+    second: SimpleStyle1_43
+  - first:
+      213: -176339453013251663
+    second: SimpleStyle1_44
+  - first:
+      213: -3618069647385485999
+    second: SimpleStyle1_45
+  - first:
+      213: -1267010574605416998
+    second: SimpleStyle1_46
+  - first:
+      213: -7542221980433365605
+    second: SimpleStyle1_47
+  - first:
+      213: -1171199358981456920
+    second: SimpleStyle1_48
+  - first:
+      213: -8050391445291546351
+    second: SimpleStyle1_49
+  - first:
+      213: -774296550755975925
+    second: SimpleStyle1_50
+  - first:
+      213: -219545201457672384
+    second: SimpleStyle1_51
+  - first:
+      213: -377560398974319674
+    second: SimpleStyle1_52
+  - first:
+      213: -2274038551283622176
+    second: SimpleStyle1_53
+  - first:
+      213: 514439426149158113
+    second: SimpleStyle1_54
+  - first:
+      213: 5781060181534152278
+    second: SimpleStyle1_55
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SimpleStyle1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 32
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd3b412dc797ce70800000000000000
+      internalID: 9135437276427009489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleStyle1_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eafe2ace66f64420800000000000000
+      internalID: 2614047589434063584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleStyle1_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4c45485cd66ec10800000000000000
+      internalID: 2082472572801565885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleStyle1_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460d17babbddcda00800000000000000
+      internalID: 782744233360609380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
