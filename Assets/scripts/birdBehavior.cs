@@ -44,7 +44,7 @@ public class birdBehavior : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D other){
-        if(other.gameObject.CompareTag("pipe")){
+        if(other.gameObject.CompareTag("pipe") || other.gameObject.CompareTag("boumdary")){
             score++;
         }
     }
