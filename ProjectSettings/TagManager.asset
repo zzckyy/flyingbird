@@ -6,6 +6,7 @@ TagManager:
   tags:
   - obstacle
   - pipe
+  - bird
   layers:
   - Default
   - TransparentFX
