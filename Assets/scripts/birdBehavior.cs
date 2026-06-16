@@ -23,7 +23,7 @@ public class birdBehavior : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.Space) && isHidup)
+        if (Input.GetButton("Jump") && isHidup)
         {
             rb.AddForce(Vector2.up * jumpForce * 10 * Time.deltaTime, ForceMode2D.Impulse);
         }
