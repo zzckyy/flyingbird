@@ -8,6 +8,9 @@ public class pipeSpawner : MonoBehaviour
     public GameObject pipePrefab;
     public float spawnRate = 2f;
 
+    public float minY = 1f;
+    public float maxY = 3f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,8 +19,8 @@ public class pipeSpawner : MonoBehaviour
 
     void SpawnPipe()
     {
-        float randomY = Random.Range(-1f, 1f);
-        Vector3 spawnPosition = new Vector3(transform.position.x, transform.position.y, 0);
+        float randomY = Random.Range(minY, maxY);
+        Vector3 spawnPosition = new Vector3(transform.position.x, randomY, 0);
         Instantiate(pipePrefab, spawnPosition, Quaternion.identity);
     }
 }
