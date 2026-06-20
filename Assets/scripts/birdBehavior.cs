@@ -9,6 +9,8 @@ public class birdBehavior : MonoBehaviour
 
     public float jumpForce = 100f;
      Rigidbody2D rb;
+     AudioSource audio;
+    public AudioClip[] _clip;
 
     bool isHidup;    
      public Text textSkor;
@@ -18,6 +20,9 @@ public class birdBehavior : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         isHidup = true;
+        audio = GetComponent<AudioSource>();
+
+        audio.clip = _clip[0];
     }
 
     // Update is called once per frame
@@ -26,6 +31,11 @@ public class birdBehavior : MonoBehaviour
         if (Input.GetButton("Jump") && isHidup)
         {
             rb.AddForce(Vector2.up * jumpForce * 10 * Time.deltaTime, ForceMode2D.Impulse);
+        }
+
+        if (Input.GetButtonDown("Jump") && isHidup)
+        {
+            audio.Play();
         }
 
         textSkor.text = score.ToString();
@@ -40,6 +50,7 @@ public class birdBehavior : MonoBehaviour
         if (other.gameObject.CompareTag("obstacle"))
         {
             isHidup = false;
+            audio.clip = _clip[1];
         }
     }
 
@@ -51,6 +62,7 @@ public class birdBehavior : MonoBehaviour
 
     void GameOver()
     {
-        Debug.Log("Yoan");
+        
+        audio.Play();
     }
 }
