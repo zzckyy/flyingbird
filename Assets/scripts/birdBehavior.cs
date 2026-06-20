@@ -22,7 +22,7 @@ public class birdBehavior : MonoBehaviour
         isHidup = true;
         audio = GetComponent<AudioSource>();
 
-        audio.clip = _clip[0];
+        
     }
 
     // Update is called once per frame
@@ -35,6 +35,7 @@ public class birdBehavior : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && isHidup)
         {
+            audio.clip = _clip[0];
             audio.Play();
         }
 
@@ -51,6 +52,7 @@ public class birdBehavior : MonoBehaviour
         {
             isHidup = false;
             audio.clip = _clip[1];
+             audio.Play();
         }
     }
 
@@ -63,6 +65,6 @@ public class birdBehavior : MonoBehaviour
     void GameOver()
     {
         
-        audio.Play();
+       
     }
 }
