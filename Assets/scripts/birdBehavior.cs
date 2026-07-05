@@ -48,16 +48,16 @@ public class birdBehavior : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("obstacle"))
+        if (other.gameObject.CompareTag("obstacle") || other.gameObject.CompareTag("boundary"))
         {
             isHidup = false;
             audio.clip = _clip[1];
-             audio.Play();
+            audio.Play();
         }
     }
 
     void OnTriggerEnter2D(Collider2D other){
-        if(other.gameObject.CompareTag("pipe") || other.gameObject.CompareTag("boumdary")){
+        if(other.gameObject.CompareTag("scoreCollider") && isHidup){
             score++;
         }
     }
