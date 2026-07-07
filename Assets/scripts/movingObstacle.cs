@@ -16,5 +16,7 @@ public class movingObstacle : MonoBehaviour
     void FixedUpdate()
     {
         transform.Translate(Vector2.left * speed * Time.deltaTime);
+
+        Destroy(gameObject, 5f);
     }
 }
