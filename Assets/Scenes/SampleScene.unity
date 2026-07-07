@@ -306,6 +306,7 @@ MonoBehaviour:
   isPlay: 0
   textSkor: {fileID: 241842639}
   playButton: {fileID: 263190160}
+  pauseButton: {fileID: 1023516813}
 --- !u!50 &114077286
 Rigidbody2D:
   serializedVersion: 4
@@ -509,7 +510,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -34.769997, y: -0.05000019}
-  m_SizeDelta: {x: 49.588776, y: 29.899963}
+  m_SizeDelta: {x: 50, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &241842639
 MonoBehaviour:
@@ -524,19 +525,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.3160377, b: 0.3160377, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: 22873cd78c641b5439856e1fb9447a38, type: 3}
+    m_FontSize: 24
     m_FontStyle: 1
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_BestFit: 1
+    m_MinSize: 2
+    m_MaxSize: 24
     m_Alignment: 5
     m_AlignByGeometry: 1
     m_RichText: 1

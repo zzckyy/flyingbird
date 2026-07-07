@@ -8,14 +8,17 @@ public class birdBehavior : MonoBehaviour
     public int score = 0;
 
     public float jumpForce = 100f;
-     Rigidbody2D rb;
-     AudioSource audio;
+    Rigidbody2D rb;
+    AudioSource audio;
     public AudioClip[] _clip;
 
     bool isHidup;    
     public bool isPlay;
-     public Text textSkor;
-     public GameObject playButton;
+    public Text textSkor;
+    public GameObject playButton;
+    public GameObject pauseButton;
+
+    public GameObject GameOverUI;
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +41,10 @@ public class birdBehavior : MonoBehaviour
         if(isPlay){
             rb.bodyType = RigidbodyType2D.Dynamic;
             playButton.SetActive(false);
+            pauseButton.SetActive(true);
+            GameOverUI.SetActive(false);
+        }else{
+            pauseButton.SetActive(false);
         }
 
         if (Input.GetButton("Jump") && isHidup && isPlay)
@@ -77,6 +84,6 @@ public class birdBehavior : MonoBehaviour
     void GameOver()
     {
         isPlay = false;
-       
+        GameOverUI.SetActive(true);
     }
 }
