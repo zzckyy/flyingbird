@@ -13,7 +13,9 @@ public class birdBehavior : MonoBehaviour
     public AudioClip[] _clip;
 
     bool isHidup;    
+    public bool isPlay;
      public Text textSkor;
+     public GameObject playButton;
 
     // Start is called before the first frame update
     void Start()
@@ -21,19 +23,29 @@ public class birdBehavior : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         isHidup = true;
         audio = GetComponent<AudioSource>();
-
+        rb.bodyType = RigidbodyType2D.Kinematic;
+        isPlay = false;
         
+    }
+
+    public void startGame(){
+        isPlay = true;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (Input.GetButton("Jump") && isHidup)
+        if(isPlay){
+            rb.bodyType = RigidbodyType2D.Dynamic;
+            playButton.SetActive(false);
+        }
+
+        if (Input.GetButton("Jump") && isHidup && isPlay)
         {
             rb.AddForce(Vector2.up * jumpForce * 10 * Time.deltaTime, ForceMode2D.Impulse);
         }
 
-        if (Input.GetButtonDown("Jump") && isHidup)
+        if (Input.GetButtonDown("Jump") && isHidup && isPlay)
         {
             audio.clip = _clip[0];
             audio.Play();
@@ -48,7 +60,7 @@ public class birdBehavior : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("obstacle") || other.gameObject.CompareTag("boundary"))
+        if (other.gameObject.CompareTag("obstacle") && isPlay || other.gameObject.CompareTag("boundary")  && isPlay)
         {
             isHidup = false;
             audio.clip = _clip[1];
@@ -57,14 +69,14 @@ public class birdBehavior : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D other){
-        if(other.gameObject.CompareTag("scoreCollider") && isHidup){
+        if(other.gameObject.CompareTag("scoreCollider") && isHidup && isPlay){
             score++;
         }
     }
 
     void GameOver()
     {
-        
+        isPlay = false;
        
     }
 }
