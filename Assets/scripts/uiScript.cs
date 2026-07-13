@@ -5,12 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class uiScript : MonoBehaviour
 {
-    public void PauseGame(){
+    public void PauseGame(GameObject PauseUI){
         Time.timeScale = 0;
+        PauseUI.SetActive(true);
     }
 
-    public void ResumeGame(){
+    public void ResumeGame(GameObject PauseUI){
         Time.timeScale = 1;
+        PauseUI.SetActive(false);
     }
 
     public void ExitGame(){
