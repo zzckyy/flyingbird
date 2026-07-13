@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class birdBehavior : MonoBehaviour
 {
     public int score = 0;
+    public int highScore;
+    public Text textHighScore;
 
     public float jumpForce = 100f;
     Rigidbody2D rb;
@@ -28,6 +30,10 @@ public class birdBehavior : MonoBehaviour
         audio = GetComponent<AudioSource>();
         rb.bodyType = RigidbodyType2D.Kinematic;
         isPlay = false;
+
+        
+
+        highScore = PlayerPrefs.GetInt("highScore", 1);
         
     }
 
@@ -59,6 +65,7 @@ public class birdBehavior : MonoBehaviour
         }
 
         textSkor.text = score.ToString();
+        textHighScore.text = highScore.ToString();
 
         if(!isHidup){
             GameOver();
@@ -85,5 +92,12 @@ public class birdBehavior : MonoBehaviour
     {
         isPlay = false;
         GameOverUI.SetActive(true);
+
+        if(score >= highScore){
+            highScore = score;
+        }
+
+        PlayerPrefs.SetInt("highScore", highScore);
+        PlayerPrefs.Save();
     }
 }
